@@ -27,7 +27,7 @@
                     <?php if (!empty($this->session->userdata('email'))) { ?>
                         <a class="nav-item nav-link" href="#">Booking Buku</a>
                         <a class="nav-item nav-link" href="<?= base_url('member/myprofil'); ?>">Profil Saya</a>
-                        <a class="nav-item nav-link" href="<?= base_url('member/logout'); ?>"><i class="fas fw fa-login"></i> Log out</a>
+                        <a class="nav-item nav-link" href="<?= base_url('autentifikasi/logout'); ?>" data-toggle="modal" data-target="#logoutModal"></i> Log out</a>
                     <?php } else { ?>
                         <!-- <a class="nav-item nav-link" data-toggle="modal" data-target="#daftarModal" href="<?= base_url('re'); ?>"><i class="fas fw fa-login"></i> Daftar</a> -->
                         <a class="nav-item nav-link" href="<?= base_url('autentifikasi'); ?>"><i class="fas fw fa-login"></i> Log in</a>
